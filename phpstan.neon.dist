@@ -1,0 +1,10 @@
+parameters:
+    level: 1
+    paths:
+        - src
+    ignoreErrors:
+        - '#Undefined variable: \$this#'
+        - '#Call to an undefined method#'
+        - '#Access to an undefined property#'
+        - '#Unsafe usage of new static#'
+        - '#always exists and is not nullable#'
